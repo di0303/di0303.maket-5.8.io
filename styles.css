@@ -231,7 +231,7 @@ white-space: nowrap;
 .service__filter{
 display: flex;
 
-overflow-x: scroll;
+overflow-x: auto;
 gap: 10px;
 }
 
