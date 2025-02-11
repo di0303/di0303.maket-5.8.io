@@ -7,7 +7,7 @@ body{
     font-family: 'TT Lakes', sans-serif;
     background-color: #f8f8f8;
     color:#2A4A5C;
-    padding: 30px;
+
    
 }
 
@@ -126,7 +126,7 @@ body{
     background-color: transparent;
     
     cursor: pointer;
-    margin-right: 16px;
+    margin-right: 10px;
 }
 .service__menu-search{
     width: 40px;
@@ -309,9 +309,7 @@ gap: 10px;
     border-color: #ffffff;
 }
 @media(min-width:768px){
-    body{
-        padding: 30px;
-    }
+  
     .service__content{
         flex-direction: row;
         justify-content: space-between;
@@ -329,9 +327,7 @@ gap: 10px;
     }  
 }
 @media(min-width:1120px){
-    body{
-        padding: 30px;
-    }
+    
     .service__header{
         display: none;
     }
